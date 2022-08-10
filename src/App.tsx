@@ -1,10 +1,12 @@
 import React from 'react';
-import './App.css';
+import Hero from './pages/Home/Hero';
+import GlobalStyle from './style'
 
 function App() {
   return (
     <div className="App">
-      <h2>Banana e Suco de maçã</h2>
+      <GlobalStyle />
+      <Hero />
     </div>
   );
 }
