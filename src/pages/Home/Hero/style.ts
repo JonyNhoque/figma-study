@@ -7,15 +7,12 @@ const S = {
     flex-direction: column;
     height: 926px;
     width: 100vw;
-    background-color: #4640BE;
+    // background-color: #4640BE;
+    background-image: url(${bg});
+
     `,
+
     
-    hero__bg: styled.div`
-    height: 926px;
-    width: 100vw;
-    background: url(${bg});
-    opacity: 0.2;
-    `
 }
 
 export default S;

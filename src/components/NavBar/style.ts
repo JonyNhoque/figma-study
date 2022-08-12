@@ -12,11 +12,10 @@ const S = {
         width: 100vw;
         margin-top: 21.45px;
     `,
-    Logo: styled.img`
-        height: 28px;
+    Logo: styled.div`
+        height: 29px;
         width: 130px;
         background-image: url(${logo});
-        background-repeat: no-repeat;
     `,
 
     NavHamburger: styled.div`
