@@ -4,7 +4,7 @@ const S = {
     headline: styled.div`
     height: 368px;
     width: 380px;
-    margin: 117px 24px 0px 24px;
+    margin: 117px auto 0;
     `,
 
     text: styled.h1`

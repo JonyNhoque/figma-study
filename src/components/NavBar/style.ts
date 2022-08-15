@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import logo from '../../assets/hero/logo.svg';
-import hamburgerNav from '../../assets/hero/align-right.svg'
+import logo from '../../pages/Home/Hero/assets/logo.svg';
+import hamburgerNav from '../../pages/Home/Hero/assets/align-right.svg'
 
 const S = {
     NavBar: styled.div`
