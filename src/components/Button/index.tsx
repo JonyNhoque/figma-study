@@ -2,10 +2,10 @@ import React from "react";
 import S from './style'
 
 type TButton = {
-    buttonTitle: String
+    buttonTitle: String,
 }
 
-const Button: React.FunctionComponent<TButton> = ({buttonTitle}) => {
+const Button = ({ buttonTitle }: TButton) => {
     return (
         <S.Button>{buttonTitle}</S.Button>
     )
