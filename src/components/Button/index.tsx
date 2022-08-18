@@ -2,12 +2,15 @@ import React from "react";
 import S from './style'
 
 type TButton = {
-    buttonTitle: String,
+    theme?: string,
+    children: React.ReactNode
 }
 
-const Button = ({ buttonTitle }: TButton) => {
+const Button: React.FC<TButton> = ({ theme, children }) => {
+
+
     return (
-        <S.Button>{buttonTitle}</S.Button>
+        <S.Button theme={theme}>{children}</S.Button>
     )
 };
 

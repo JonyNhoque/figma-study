@@ -1,13 +1,16 @@
 import styled from 'styled-components';
 
 const S = {
-    headline: styled.div`
+    Headline: styled.div`
     height: 368px;
     width: 380px;
-    margin: 117px auto 0;
+    margin: 117px auto 0;   
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     `,
 
-    text: styled.h1`
+    Text: styled.h1`
     font-weight: 600;
     line-height: 72px;
     text-align: center;
@@ -15,7 +18,15 @@ const S = {
     font-size: 48px;
     `,
 
-    buttonHolder: styled.div`
+    TextAccent: styled.span`
+    font-weight: 600;
+    line-height: 72px;
+    text-align: center;
+    color: #FFC656;
+    font-size: 48px;
+    `,
+
+    ButtonHolder: styled.div`
     display: flex;
     box-sizing: border-box;
     padding: 0px 20px;

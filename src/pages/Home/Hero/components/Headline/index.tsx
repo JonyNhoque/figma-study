@@ -4,13 +4,13 @@ import S from  './style'
 
 const Headline = () => {
     return(
-        <S.headline>
-            <S.text>Digital <br /> Marketing <br /> Solution For < br /> Your Business</S.text>
-            <S.buttonHolder>
-                <Button buttonTitle='Button'></Button>
-                <Button buttonTitle='Button'></Button>
-            </S.buttonHolder>
-        </S.headline>
+        <S.Headline>
+            <S.Text>Digital <br /> Marketing <br /> Solution For <S.TextAccent>Your Business</S.TextAccent></S.Text>
+            <S.ButtonHolder>
+                <Button>Button</Button>
+                <Button theme='transparent'>Button</Button>
+            </S.ButtonHolder>
+        </S.Headline>
     )
 }
 
