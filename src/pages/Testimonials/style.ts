@@ -35,7 +35,6 @@ const S = {
 
     Carousel: styled.div`
     max-width: 100vw;
-    padding-left: 24px;
     `,
 
     Dot: styled.div`
