@@ -34,14 +34,8 @@ const S = {
     `,
 
     Carousel: styled.div`
-    width: 100vw;
-    `,
-
-    CardHolder: styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
     max-width: 100vw;
+    padding-left: 24px;
     `,
 
     Dot: styled.div`

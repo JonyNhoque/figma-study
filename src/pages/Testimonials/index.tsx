@@ -3,7 +3,6 @@ import Card from './components/Card';
 import S from "./style";
 import avatar from './assets/avatar.png';
 import Slider from "react-slick";
-import { toEditorSettings } from "typescript";
 
 const testimonialData = [
     {
@@ -28,6 +27,12 @@ const testimonialData = [
         src: avatar,
         name: 'Gomez Gomides',
         ocupation: 'Consultant'
+    },
+
+    {
+        src: avatar,
+        name: 'Alex Smith',
+        ocupation: 'Back-end Developer'
     }
 ]
 
