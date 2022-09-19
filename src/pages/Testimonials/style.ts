@@ -26,7 +26,7 @@ const S = {
     margin-bottom: 6px;
     `,
 
-    Lead: styled.h2`
+    Lead: styled.div`
     font-wight: 600;
     font-size: 32px;
     line-height: 42px;
@@ -43,11 +43,7 @@ const S = {
     border: 2px solid  #fff;
     border-radius: 50%;
     margin-top: 32px;
-
-    &:focus {
-        background: #fff;
-    }
-    `
+    `,
 }
 
 export default S;
