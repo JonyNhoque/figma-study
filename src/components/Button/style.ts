@@ -1,13 +1,19 @@
 import styled from "styled-components";
 
+type Props ={
+    color?: string,
+    bgColor?: string,
+    hover?: boolean
+}
+
 const S = {
-    Button: styled.button`
+    Button: styled.button<Props>`
     box-sizing: border-box;
     display: flex;
     align-items: center;
     padding: 6.5px 54px;
-    color: ${props => props.theme === 'transparent' ? '#FFF' : '#4640BE'};
-    background-color: ${props => props.theme === 'transparent' ? 'transparent' : "#FFF"};
+    color: ${props => props.color};
+    background-color: ${props => props.bgColor};
     border-radius: 15px;
     border: 2px solid #FFFFFF;
     font-family: 'Poppins';
@@ -15,6 +21,12 @@ const S = {
     font-weight: 600;
     font-size: 14px;
     line-height: 47px;
+
+    &:hover {
+        color: ${props => props.hover ? '#fff' : props.color};
+        background-color: ${props => props.hover ? 'transparent' : props.bgColor};
+        cursor: pointer
+    }
     `
 };
 

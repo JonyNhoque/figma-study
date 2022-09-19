@@ -2,15 +2,17 @@ import React from "react";
 import S from './style'
 
 type TButton = {
-    theme?: string,
+    bgColor?: string,
+    color?: string,
+    hover?: boolean,
     children: React.ReactNode
 }
 
-const Button: React.FC<TButton> = ({ theme, children }) => {
-
+const Button: React.FC<TButton> = ({ bgColor, hover, color, children }) => {
+    
 
     return (
-        <S.Button theme={theme}>{children}</S.Button>
+        <S.Button bgColor={bgColor} color={color} hover={hover}>{children}</S.Button>
     )
 };
 
