@@ -1,5 +1,6 @@
 import React from 'react';
 import Content from './pages/Content';
+import FAQ from './pages/FAQ';
 import Features from './pages/Features';
 import Hero from './pages/Home/Hero';
 import Portfolio from './pages/Portfolio';
@@ -15,6 +16,7 @@ function App() {
       <Content />
       <Testimonials />
       <Portfolio />
+      <FAQ />
     </div>
   );
 }
