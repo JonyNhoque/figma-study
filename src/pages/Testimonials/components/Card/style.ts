@@ -8,11 +8,11 @@ const S ={
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-left: 24px;
         gap: 24px;
         padding: 40px;
         border-radius: 40px;
         background-color: #FFF;
+        margin: 0 auto;
     `,
 
     Text: styled.p`

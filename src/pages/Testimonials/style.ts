@@ -35,6 +35,10 @@ const S = {
 
     Carousel: styled.div`
     max-width: 100vw;
+
+    .slick-dots .slick-active div {
+        background-color: #fff;
+    }
     `,
 
     Dot: styled.div`
