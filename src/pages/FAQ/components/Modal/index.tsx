@@ -1,19 +1,31 @@
 import React, { useState } from "react";
 import S from './style';
-import Plus from '../../src/plus.svg'
+import More from '../../src/plus.svg';
+import Less from '../../src/minus.svg'
 
 type TModal = {
     title: string,
     description?: string
-}
+};
 
 const Modal: React.FC<TModal> = ({title, description}) => {
 
+    const [ isOpen, setIsOpen ] = useState(false);
+    const onModalClick = (e: any) => {
+        setIsOpen(!isOpen)
+    }
+    const imageSrc = isOpen ? Less : More;
+ 
     return (
-    <S.Modal>
-        <S.ModalCell>
-            <S.Text>{title}</S.Text>
-            <S.Action src={Plus} />
+    <S.Modal onClick={onModalClick} >
+        <S.ModalCell className={isOpen ? 'open' : ''}>
+            <S.Title>
+                <S.Text className='text'>{title}</S.Text>
+                <img src={imageSrc} className='action'/>
+            </S.Title>
+            <S.Description>
+                {description}
+            </S.Description>
         </S.ModalCell>
     </S.Modal>
     )

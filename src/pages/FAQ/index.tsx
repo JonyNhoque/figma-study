@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Modal from "./components/Modal";
 import imgSrc from './src/imgFAQ.png';
 import S from './style';
