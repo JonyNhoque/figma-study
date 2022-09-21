@@ -53,8 +53,6 @@ const Portfolio = () => {
             <S.CardHolder>
                 {
                     cardData.map((item, key) =>{
-
-                        console.log(item)
                         return(
                             <Card src={item.src} name={item.name} service={item.service} key={key} />
                         )

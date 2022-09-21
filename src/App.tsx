@@ -1,4 +1,5 @@
 import React from 'react';
+import CallToAction from './pages/CallToAction';
 import Content from './pages/Content';
 import FAQ from './pages/FAQ';
 import Features from './pages/Features';
@@ -17,6 +18,7 @@ function App() {
       <Testimonials />
       <Portfolio />
       <FAQ />
+      <CallToAction />
     </div>
   );
 }
