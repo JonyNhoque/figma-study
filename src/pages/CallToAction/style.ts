@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const S = {
     CallToAction: styled.div`
+    margin-top: -2px;
     display: flex;
     flex-direction: column;
     height: 574px;

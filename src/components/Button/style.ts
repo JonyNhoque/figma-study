@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-type Props ={
+type Props = {
     color?: string,
     bgColor?: string,
     hover?: boolean

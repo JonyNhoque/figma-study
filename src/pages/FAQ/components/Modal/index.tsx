@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import S from './style';
-import More from '../../src/plus.svg';
-import Less from '../../src/minus.svg'
+import More from '../../assets/plus.svg';
+import Less from '../../assets/minus.svg'
 
 type TModal = {
     title: string,
@@ -21,7 +21,7 @@ const Modal: React.FC<TModal> = ({title, description}) => {
         <S.ModalCell className={isOpen ? 'open' : ''}>
             <S.Title>
                 <S.Text className='text'>{title}</S.Text>
-                <img src={imageSrc} className='action'/>
+                <img src={imageSrc} className='action' alt='Robot boy using laptop'/>
             </S.Title>
             <S.Description>
                 {description}
