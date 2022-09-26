@@ -3,6 +3,7 @@ import CallToAction from './pages/CallToAction';
 import Content from './pages/Content';
 import FAQ from './pages/FAQ';
 import Features from './pages/Features';
+import Footer from './pages/Footer';
 import Hero from './pages/Home/Hero';
 import Portfolio from './pages/Portfolio';
 import Testimonials from './pages/Testimonials';
@@ -19,6 +20,7 @@ function App() {
       <Portfolio />
       <FAQ />
       <CallToAction />
+      <Footer />
     </div>
   );
 }

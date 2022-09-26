@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../../components/Button";
 import S from './style';
-import bgImage from './src/ctaImg.png';
+import bgImage from './assets/ctaImg.png';
 
 
 const CallToAction = () => {

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import logo from '../../pages/Home/Hero/assets/logo.svg';
+import logo from '../../assets/logo.svg';
 import hamburgerNav from '../../pages/Home/Hero/assets/align-right.svg'
 
 const S = {
@@ -15,7 +15,7 @@ const S = {
     Logo: styled.div`
         height: 29px;
         width: 130px;
-        background-image: url(${logo});
+        background: url(${logo});
     `,
 
     NavHamburger: styled.div`

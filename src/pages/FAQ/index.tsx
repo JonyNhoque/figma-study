@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Modal from "./components/Modal";
-import imgSrc from './src/imgFAQ.png';
+import imgSrc from './assets/imgFAQ.png';
 import S from './style';
 
 const modalData = [

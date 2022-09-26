@@ -45,6 +45,7 @@ const S = {
     imgHolder: styled.div`
     width: 378px;
     height: 378px;
+    margin: 0 auto;
     `,
 
     img: styled.img<Props>`
