@@ -1,14 +1,18 @@
 import styled from "styled-components";
 
 const S ={
-    Modal: styled.div`
+    QuestionBox: styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 20px;
+
+    &:hover {
+        cursor: pointer;
+    }
     `,
 
-    ModalCell: styled.div`
+    QuestionBoxCell: styled.div`
     max-height: 56px;
     overflow: hidden;
     align-items: center;
@@ -47,6 +51,11 @@ const S ={
     Description: styled.div`
     color: #666;
     transition: color .3s cubic-bezier(0.4, 0, 1, 1);
+    `,
+
+    Img: styled.img`
+        max-width: 375px;
+        object-fit: contain;
     `
 }
 

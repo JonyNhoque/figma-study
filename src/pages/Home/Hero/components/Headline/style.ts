@@ -3,11 +3,15 @@ import styled from 'styled-components';
 const S = {
     Headline: styled.div`
     height: 368px;
-    width: 380px;
+    max-width: 380px;
     margin: 117px auto 0;   
     display: flex;
     flex-direction: column;
     gap: 24px;
+
+    @media(max-width: 375px){
+        width: 320px;
+    }
     `,
 
     Text: styled.h1`
@@ -16,6 +20,10 @@ const S = {
     text-align: center;
     color: #fff;
     font-size: 48px;
+
+    @media(max-width: 375px){
+        font-size: 45;
+    }
     `,
 
     TextAccent: styled.span`
@@ -24,6 +32,10 @@ const S = {
     text-align: center;
     color: #FFC656;
     font-size: 48px;
+
+    @media(max-width: 375px){
+        font-size: 45;
+    }
     `,
 
     ButtonHolder: styled.div`

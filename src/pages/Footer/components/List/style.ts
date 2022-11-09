@@ -17,9 +17,14 @@ const S = {
     list-style: none;
     margin-bottom: 12px;
     text-align: center;
+    cursor: pointer;
 
     &: last-child {
         margin-bottom: 0px;
+    };
+
+    &: hover {
+        color: #FFC656;
     }
     `,
 

@@ -53,6 +53,10 @@ const S = {
     background: url(${props => props.icon});
     height: 20px;
     width: 20px;
+
+    &:hover {
+        cursor: pointer;
+    }
     `,
 
     Copyright: styled.div`
