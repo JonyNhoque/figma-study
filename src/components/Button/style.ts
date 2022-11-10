@@ -21,6 +21,7 @@ const S = {
     font-weight: 600;
     font-size: 14px;
     line-height: 47px;
+    cursor: pointer;
 
     @media (max-width: 375px){
         padding: 6.5px 40px;
@@ -29,7 +30,6 @@ const S = {
     &:hover {
         color: ${props => props.hover ? '#fff' : props.color};
         background-color: ${props => props.hover ? 'transparent' : props.bgColor};
-        cursor: pointer
     };
     `
 };
