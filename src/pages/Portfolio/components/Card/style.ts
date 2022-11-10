@@ -4,6 +4,7 @@ const S = {
     Card: styled.div`
     height: 351px;
     width: 378px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,11 +15,12 @@ const S = {
     ImageHolder: styled.div`
     background-img: #020;
     height: 277px;
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 16px;
     border-radius: 40px;
     `,
     Image: styled.img`
+    max-width: 100%;
     src(${props => props.src})
     `,
     Title: styled.div`

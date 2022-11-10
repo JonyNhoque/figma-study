@@ -38,6 +38,7 @@ const S = {
 
     Image: styled.img`
     position: absolute;
+    max-width: 100%;
     `
 };
 

@@ -3,6 +3,7 @@ import styled from "styled-components";
 const S ={ 
     Card: styled.div`
         width: 380px;
+        max-width: fit-content;
         flex: none;
         display: flex;
         flex-direction: column;

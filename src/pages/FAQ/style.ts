@@ -44,15 +44,17 @@ const S = {
 
     imgHolder: styled.div`
     width: 378px;
+    max-width: 100%;
     height: 378px;
     margin: 0 auto;
     `,
 
     img: styled.img<Props>`
+    max-width: 100%;
     src(${props => props.src})
     `,
 
-    ModalHolder: styled.div`
+    QuestionBoxHolder: styled.div`
     
     `
 };

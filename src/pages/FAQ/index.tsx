@@ -1,6 +1,6 @@
 import React from "react";
-import Modal from "./components/Modal";
 import imgSrc from './assets/imgFAQ.png';
+import QuestionBox from "./components/QuestionBox";
 import S from './style';
 
 const modalData = [
@@ -25,15 +25,15 @@ const FAQ = () => {
                 <S.Title>Frequently Asked Questions</S.Title>
                 <S.Lead>How can we help?</S.Lead>
             </S.Headline>
-            <S.ModalHolder>
+            <S.QuestionBoxHolder>
                 {
                     modalData.map((item, index) => {
                        return(
-                        <Modal title={item.title} description={item.description} key={index} />
+                        <QuestionBox title={item.title} description={item.description} key={index} />
                        )
                     })
                 }
-            </S.ModalHolder>
+            </S.QuestionBoxHolder>
             <S.imgHolder>
                 <S.img src={imgSrc} />
             </S.imgHolder>

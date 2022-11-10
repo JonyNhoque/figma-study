@@ -22,11 +22,15 @@ const S = {
     font-size: 14px;
     line-height: 47px;
 
+    @media (max-width: 375px){
+        padding: 6.5px 40px;
+    }
+
     &:hover {
         color: ${props => props.hover ? '#fff' : props.color};
         background-color: ${props => props.hover ? 'transparent' : props.bgColor};
         cursor: pointer
-    }
+    };
     `
 };
 
